@@ -23,6 +23,13 @@ jobs:
         with:
           submodules: true
           lfs: false
+      - name: Use variables
+        run: |
+          echo "MongoDB variable : $MONGODB_CONNECTION_STRING"
+          echo "ACS variable : $ACS_CONNECTION_STRING"
+        env:
+          MONGODB_CONNECTION_STRING: ${{ vars.MONGODB_CONNECTION_STRING }}
+          ACS_CONNECTION_STRING: ${{ vars.ACS_CONNECTION_STRING }}
       - name: Build And Deploy
         id: builddeploy
         uses: Azure/static-web-apps-deploy@v1
