@@ -39,8 +39,25 @@ export async function POST(request: Request) {
     const message: EmailMessage = {
       senderAddress: 'DoNotReply@openspacelaunch.org',
       content: {
-        subject: 'Subscription Confirmation',
-        plainText: `Thank you joining the Open Source Space revolution!`,
+        subject: 'Welcome to the Open Space Launch Foundation Community! 🚀',
+        plainText: `Dear Space Revolutionary,
+
+Thank you for signing up for the Open Space Launch Foundation (OSLF) newsletter! We’re thrilled to have you join us on this exciting journey to democratize space exploration.
+
+By subscribing, you’ll be among the first to hear about our latest projects, open-source tools, upcoming events, and opportunities to get involved. Whether you’re a seasoned space enthusiast, a budding scientist, or just curious about the cosmos, there’s something here for everyone!
+
+Our mission at OSLF is to make space accessible to all through collaboration, innovation, and community-driven initiatives. Your support helps us push the boundaries of what’s possible, bringing together a global network of passionate individuals dedicated to exploring new frontiers.
+
+What’s Next?
+Keep an eye on your inbox for our upcoming newsletter, which will feature exciting updates, articles, and ways for you to contribute and stay engaged.
+
+In the meantime, feel free to explore more about our vision, projects, and community at towardsrocketscience.com.
+
+Thank you once again for your interest and support. Together, we can make space exploration a shared adventure for everyone!
+
+Warm regards,
+Daniel Sim
+Founder, Open Space Launch Foundation`,
       },
       recipients: {
         to: [
