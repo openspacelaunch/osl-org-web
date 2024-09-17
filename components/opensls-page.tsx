@@ -57,10 +57,8 @@ export function OpenSlsPage() {
           <div className="grid gap-6 lg:grid-cols-[1fr_400px] lg:gap-12 xl:grid-cols-[1fr_600px]">
             <img
               alt="OpenSLS Structure"
-              className="mx-auto aspect-video overflow-hidden rounded-xl object-cover object-center sm:w-full lg:order-last"
-              height="313"
-              src="/opensls-structure.png?height=313&width=550"
-              width="550"
+              className="mx-auto w-full h-auto rounded-xl object-contain object-center sm:w-full lg:order-last"
+              src="/opensls-structure.png"
             />
             <div className="flex flex-col justify-center space-y-4">
               <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">

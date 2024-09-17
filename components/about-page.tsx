@@ -4,10 +4,16 @@ import { Button } from "@/components/ui/button";
 import {
   Rocket,
   Users,
-  Globe,
   Star,
   BarChart2,
-  CheckCircle,
+  Code,
+  Database,
+  Share2,
+  Shield,
+  Zap,
+  Briefcase,
+  GraduationCap,
+  Plane,
 } from "lucide-react";
 
 export function AboutPage() {
@@ -28,54 +34,180 @@ export function AboutPage() {
           </div>
         </div>
       </section>
-      <section id="mission" className="w-full py-12 md:py-24 lg:py-32 bg-white">
+      <section
+        id="objectives"
+        className="w-full py-12 md:py-24 lg:py-32 bg-white0"
+      >
         <div className="container px-4 md:px-6">
           <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-center mb-8">
-            Our Mission
+            Our Objectives
           </h2>
-          <div className="grid gap-10 sm:grid-cols-2 lg:grid-cols-3">
-            <div className="flex flex-col items-center text-center">
-              <Rocket className="h-12 w-12 mb-4 text-blue-600" />
-              <h3 className="text-xl font-bold mb-2">OpenSLS Development</h3>
-              <p className="text-gray-600">
-                Develop the Open Space Launch System (OpenSLS), a distributed
-                system of integrated open-source software and hardware for space
-                launch vehicles and missions.
+          <div className="space-y-8">
+            <div>
+              <h3 className="text-2xl font-bold mb-4">
+                1. Develop Open Space Launch System (OpenSLS)
+              </h3>
+              <p className="text-gray-600 mb-4">
+                Create a distributed system comprised of integrated open-source
+                software and hardware to revolutionize space exploration:
               </p>
+              <ul className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+                <li className="flex items-start space-x-2">
+                  <Code className="h-5 w-5 text-blue-500 mt-1" />
+                  <span className="text-sm">
+                    Design and manufacture space launch vehicles and supporting
+                    systems
+                  </span>
+                </li>
+                <li className="flex items-start space-x-2">
+                  <Rocket className="h-5 w-5 text-blue-500 mt-1" />
+                  <span className="text-sm">
+                    Design and operate space launch missions
+                  </span>
+                </li>
+                <li className="flex items-start space-x-2">
+                  <Database className="h-5 w-5 text-blue-500 mt-1" />
+                  <span className="text-sm">
+                    Collect data from simulations, tests, and mission operations
+                  </span>
+                </li>
+                <li className="flex items-start space-x-2">
+                  <BarChart2 className="h-5 w-5 text-blue-500 mt-1" />
+                  <span className="text-sm">
+                    Analyze and integrate data to improve designs and
+                    decision-making
+                  </span>
+                </li>
+                <li className="flex items-start space-x-2">
+                  <Share2 className="h-5 w-5 text-blue-500 mt-1" />
+                  <span className="text-sm">
+                    Enable collaboration via data and knowledge sharing
+                  </span>
+                </li>
+                <li className="flex items-start space-x-2">
+                  <Zap className="h-5 w-5 text-blue-500 mt-1" />
+                  <span className="text-sm">
+                    Leverage contemporary research, AI, and robotics
+                  </span>
+                </li>
+                <li className="flex items-start space-x-2">
+                  <Shield className="h-5 w-5 text-blue-500 mt-1" />
+                  <span className="text-sm">
+                    Boost safety, reliability, and cost efficiency in space
+                    exploration
+                  </span>
+                </li>
+              </ul>
             </div>
-            <div className="flex flex-col items-center text-center">
-              <Users className="h-12 w-12 mb-4 text-blue-600" />
-              <h3 className="text-xl font-bold mb-2">Community Engagement</h3>
-              <p className="text-gray-600">
-                Rally amateur and student space launch projects to use and
-                contribute to OpenSLS, fostering a global community of space
-                enthusiasts.
-              </p>
-            </div>
-            <div className="flex flex-col items-center text-center">
-              <Globe className="h-12 w-12 mb-4 text-blue-600" />
-              <h3 className="text-xl font-bold mb-2">
-                Accelerate Space Programs
+            <div>
+              <h3 className="text-2xl font-bold mb-4">
+                2. Rally Amateur and Student Projects
               </h3>
               <p className="text-gray-600">
-                Empower amateur and student space programs to achieve payload
-                orbital insertion and trans-lunar and interplanetary missions.
+                Encourage and support amateur and student space launch projects
+                to use and contribute to OpenSLS, fostering a collaborative
+                ecosystem for space exploration enthusiasts.
+              </p>
+            </div>
+            <div>
+              <h3 className="text-2xl font-bold mb-4">
+                3. Accelerate Space Programs
+              </h3>
+              <p className="text-gray-600">
+                Empower amateur and student space programs to achieve ambitious
+                goals, including payload orbital insertion, trans-lunar
+                missions, and interplanetary exploration.
               </p>
             </div>
           </div>
         </div>
       </section>
-      <section
-        id="founder"
-        className="w-full py-12 md:py-24 lg:py-32 bg-gray-50"
-      >
+      <section id="team" className="w-full py-12 md:py-24 lg:py-32 bg-gray-50">
+        <div className="container px-4 md:px-6">
+          <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-center mb-8">
+            Our Team
+          </h2>
+          <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
+            <div className="flex flex-col items-center text-center">
+              <div className="w-32 h-32 rounded-full overflow-hidden mb-4">
+                <img
+                  alt="Daniel Sim"
+                  className="w-full h-full object-cover"
+                  height="128"
+                  src="/dan-headshot-uksa-accel.png?height=128&width=128"
+                  width="128"
+                />
+              </div>
+              <h3 className="text-xl font-bold mb-2">Daniel Sim</h3>
+              <p className="text-gray-600 mb-2">Founder</p>
+              <p className="text-sm text-gray-500">
+                Visionary behind the Open Space Launch Foundation, with a
+                background in Simulation Engineering, AI, and Data Science.
+              </p>
+            </div>
+          </div>
+          <div className="mt-12">
+            <h3 className="text-2xl font-bold mb-4 text-center">
+              Our Advisors and Mentors
+            </h3>
+            <p className="text-center text-gray-600 mb-8">
+              We are proud to have assembled a diverse team of experienced
+              professionals to guide and support our mission:
+            </p>
+            <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-4">
+              <div className="flex flex-col items-center text-center">
+                <Briefcase className="h-12 w-12 mb-4 text-blue-600" />
+                <h4 className="text-lg font-semibold mb-2">Business Mentors</h4>
+                <p className="text-sm text-gray-500">
+                  Successful entrepreneurs providing strategic guidance
+                </p>
+              </div>
+              <div className="flex flex-col items-center text-center">
+                <BarChart2 className="h-12 w-12 mb-4 text-blue-600" />
+                <h4 className="text-lg font-semibold mb-2">
+                  Business Analysts
+                </h4>
+                <p className="text-sm text-gray-500">
+                  Experts in market analysis and financial planning
+                </p>
+              </div>
+              <div className="flex flex-col items-center text-center">
+                <Rocket className="h-12 w-12 mb-4 text-blue-600" />
+                <h4 className="text-lg font-semibold mb-2">Astronauts</h4>
+                <p className="text-sm text-gray-500">
+                  Experienced space travelers providing invaluable insights
+                </p>
+              </div>
+              <div className="flex flex-col items-center text-center">
+                <Plane className="h-12 w-12 mb-4 text-blue-600" />
+                <h4 className="text-lg font-semibold mb-2">
+                  Ex-Air Force Pilots
+                </h4>
+                <p className="text-sm text-gray-500">
+                  Bringing expertise in aviation and aerospace operations
+                </p>
+              </div>
+              <div className="flex flex-col items-center text-center">
+                <GraduationCap className="h-12 w-12 mb-4 text-blue-600" />
+                <h4 className="text-lg font-semibold mb-2">
+                  Aerospace Professors
+                </h4>
+                <p className="text-sm text-gray-500">
+                  Leading academics in aerospace engineering and research
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="founder" className="w-full py-12 md:py-24 lg:py-32 bg-white">
         <div className="container px-4 md:px-6">
           <div className="grid gap-6 lg:grid-cols-[1fr_400px] lg:gap-12 xl:grid-cols-[1fr_600px]">
             <img
               alt="Founder of Open Space Launch Foundation"
               className="mx-auto aspect-video overflow-hidden rounded-xl object-cover object-center sm:w-full lg:order-last"
               height="310"
-              src="/dan-headshot-uksa-accel.png?height=310&width=550"
+              src="/oslf-look-at-stars.png?height=310&width=550"
               width="550"
             />
             <div className="flex flex-col justify-center space-y-4">
@@ -163,64 +295,6 @@ export function AboutPage() {
               collaboration, innovation, and transparency in our mission to
               democratize space exploration.
             </p>
-          </div>
-        </div>
-      </section>
-      <section
-        id="objects"
-        className="w-full py-12 md:py-24 lg:py-32 bg-gray-50"
-      >
-        <div className="container px-4 md:px-6">
-          <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-center mb-8">
-            Objects of the Foundation
-          </h2>
-          <p className="text-center text-gray-600 mb-8">
-            As a Charitable Incorporated Organisation (CIO), the Open Space
-            Launch Foundation is committed to the following objects:
-          </p>
-          <div className="space-y-6">
-            <div className="flex items-start space-x-4">
-              <CheckCircle className="h-6 w-6 text-blue-600 mt-1" />
-              <div>
-                <h3 className="text-xl font-bold mb-2">Develop OpenSLS</h3>
-                <p className="text-gray-600">
-                  To develop Open Space Launch System (OpenSLS) - a distributed
-                  system comprised of integrated open-source software and
-                  hardware for designing and manufacturing space launch
-                  vehicles, operating space launch missions, collecting and
-                  analyzing data, and enabling collaboration among space
-                  enthusiasts, researchers, and professionals.
-                </p>
-              </div>
-            </div>
-            <div className="flex items-start space-x-4">
-              <CheckCircle className="h-6 w-6 text-blue-600 mt-1" />
-              <div>
-                <h3 className="text-xl font-bold mb-2">
-                  Rally Amateur and Student Projects
-                </h3>
-                <p className="text-gray-600">
-                  To rally amateur and student space launch projects to use and
-                  contribute to OpenSLS, fostering a global community of space
-                  enthusiasts and promoting knowledge sharing in the field of
-                  space exploration.
-                </p>
-              </div>
-            </div>
-            <div className="flex items-start space-x-4">
-              <CheckCircle className="h-6 w-6 text-blue-600 mt-1" />
-              <div>
-                <h3 className="text-xl font-bold mb-2">
-                  Accelerate Space Programs
-                </h3>
-                <p className="text-gray-600">
-                  To accelerate amateur and student space programs to achieve
-                  payload orbital insertion and trans-lunar and interplanetary
-                  missions, pushing the boundaries of what's possible in
-                  non-professional space exploration.
-                </p>
-              </div>
-            </div>
           </div>
         </div>
       </section>
