@@ -4,10 +4,12 @@ import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import { Code, Users, Database, Zap, School, Globe, Star } from "lucide-react";
 import { EmailSubscriptionForm } from "./email-subscription-form";
+import { MissionStatementSectionComponent } from "./mission-statement-section";
 
 export function HomePage() {
   return (
     <main className="flex-1">
+      <MissionStatementSectionComponent />
       <section className="w-full py-12 md:py-24 lg:py-32 xl:py-48 bg-black text-white">
         <div className="container px-4 md:px-6">
           <div className="flex flex-col items-center space-y-4 text-center">
@@ -16,18 +18,18 @@ export function HomePage() {
                 Democratizing Space Launch Technology
               </h1>
               <p className="mx-auto max-w-[700px] text-gray-300 md:text-xl">
-                Open Space Launch Foundation is developing OpenSLS - the world's
-                first open-source launch vehicle development platform, making
-                space exploration accessible to all.
+                Open Space Launch Foundation is developing OpenSASA - the
+                world's first open-source launch vehicle development platform,
+                making space exploration accessible to all.
               </p>
             </div>
             <div className="space-x-4">
-              <Link href="opensls">
+              <Link href="opensasa">
                 <Button
                   variant="outline"
                   className="bg-white text-black hover:bg-gray-200"
                 >
-                  Explore OpenSLS
+                  Explore OpenSASA
                 </Button>
               </Link>
               <Link href="#get-involved">
@@ -107,10 +109,13 @@ export function HomePage() {
           </div>
         </div>
       </section>
-      <section id="opensls" className="w-full py-12 md:py-24 lg:py-32 bg-white">
+      <section
+        id="opensasa"
+        className="w-full py-12 md:py-24 lg:py-32 bg-white"
+      >
         <div className="container px-4 md:px-6">
           <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-center mb-8">
-            OpenSLS: Open Space Launch System
+            OpenSASA: Open Student and Amateur Space Agency
           </h2>
           <p className="text-center max-w-[800px] mx-auto text-gray-500 md:text-xl/relaxed mb-12">
             The world's first open-source launch vehicle development platform
@@ -149,9 +154,9 @@ export function HomePage() {
             </div>
           </div>
           <div className="flex flex-col items-center text-center mt-12">
-            <Link href="opensls">
+            <Link href="opensasa">
               <Button className="bg-blue-600 text-white hover:bg-blue-700">
-                Explore OpenSLS
+                Explore OpenSASA
               </Button>
             </Link>
           </div>
@@ -178,7 +183,7 @@ export function HomePage() {
               </h3>
               <p className="text-gray-600">
                 Rally amateur and student space launch projects to use and
-                contribute to OpenSLS, accelerating their progress towards
+                contribute to OpenSASA, accelerating their progress towards
                 orbital and beyond.
               </p>
             </div>
@@ -206,7 +211,7 @@ export function HomePage() {
               <p className="mx-auto max-w-[600px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
                 Whether you're a space enthusiast, student, researcher, or
                 professional, there's a place for you in our mission. Get
-                involved with OpenSLS and help shape the future of space
+                involved with OpenSASA and help shape the future of space
                 exploration.
               </p>
             </div>

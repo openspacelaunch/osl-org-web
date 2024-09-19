@@ -41,7 +41,7 @@ export default function Header() {
   const navItems = [
     { href: "/", label: "Home" },
     { href: "/about", label: "About" },
-    { href: "/opensls", label: "OpenSLS" },
+    { href: "/opensasa", label: "OpenSASA" },
     { href: "/projects", label: "Projects" },
     { href: "#get-involved", label: "Get Involved" },
   ];

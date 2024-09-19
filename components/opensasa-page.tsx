@@ -19,7 +19,7 @@ import {
 } from "lucide-react";
 import { EmailSubscriptionForm } from "./email-subscription-form";
 
-export function OpenSlsPage() {
+export function OpenSasaPage() {
   return (
     <main className="flex-1">
       <section className="w-full py-12 md:py-24 lg:py-32 xl:py-48 bg-black text-white">
@@ -27,7 +27,7 @@ export function OpenSlsPage() {
           <div className="flex flex-col items-center space-y-4 text-center">
             <div className="space-y-2">
               <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl lg:text-6xl/none">
-                OpenSLS: Open Space Launch System
+                OpenSASA: Open Student and Amateur Space Agency
               </h1>
               <p className="mx-auto max-w-[700px] text-gray-300 md:text-xl">
                 The world's first open-source launch vehicle development
@@ -56,16 +56,16 @@ export function OpenSlsPage() {
         <div className="container px-4 md:px-6">
           <div className="grid gap-6 lg:grid-cols-[1fr_400px] lg:gap-12 xl:grid-cols-[1fr_600px]">
             <img
-              alt="OpenSLS Structure"
+              alt="OpenSASA Structure"
               className="mx-auto w-full h-auto rounded-xl object-contain object-center sm:w-full lg:order-last"
-              src="/opensls-structure.png"
+              src="/OpenSASA-structure.png"
             />
             <div className="flex flex-col justify-center space-y-4">
               <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">
                 Revolutionizing Space Launch Technology
               </h2>
               <p className="max-w-[600px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                OpenSLS is not just a tool; it's a movement. By combining
+                OpenSASA is not just a tool; it's a movement. By combining
                 cutting-edge technology with the power of open-source
                 collaboration, we're making space exploration accessible to
                 innovators, researchers, and enthusiasts around the world.
@@ -102,7 +102,7 @@ export function OpenSlsPage() {
       >
         <div className="container px-4 md:px-6">
           <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-center mb-8">
-            Key Features of OpenSLS
+            Key Features of OpenSASA
           </h2>
           <div className="grid gap-10 sm:grid-cols-2 lg:grid-cols-3">
             <div className="flex flex-col items-center text-center">
@@ -253,11 +253,11 @@ export function OpenSlsPage() {
           <div className="flex flex-col items-center justify-center space-y-4 text-center">
             <div className="space-y-2">
               <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">
-                Join the OpenSLS Community
+                Join the OpenSASA Community
               </h2>
               <p className="mx-auto max-w-[600px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
                 Whether you're a space enthusiast, student, researcher, or
-                professional, there's a place for you in the OpenSLS community.
+                professional, there's a place for you in the OpenSASA community.
                 Get involved and help shape the future of space exploration.
               </p>
             </div>

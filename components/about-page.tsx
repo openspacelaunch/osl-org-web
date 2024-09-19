@@ -15,6 +15,7 @@ import {
   GraduationCap,
   Plane,
 } from "lucide-react";
+import { TrusteesSectionComponent } from "./trustees-section";
 
 export function AboutPage() {
   return (
@@ -45,7 +46,7 @@ export function AboutPage() {
           <div className="space-y-8">
             <div>
               <h3 className="text-2xl font-bold mb-4">
-                1. Develop Open Space Launch System (OpenSLS)
+                1. Develop Open Student and Amateur Space Agency (OpenSASA)
               </h3>
               <p className="text-gray-600 mb-4">
                 Create a distributed system comprised of integrated open-source
@@ -105,7 +106,7 @@ export function AboutPage() {
               </h3>
               <p className="text-gray-600">
                 Encourage and support amateur and student space launch projects
-                to use and contribute to OpenSLS, fostering a collaborative
+                to use and contribute to OpenSASA, fostering a collaborative
                 ecosystem for space exploration enthusiasts.
               </p>
             </div>
@@ -122,33 +123,15 @@ export function AboutPage() {
           </div>
         </div>
       </section>
+      <TrusteesSectionComponent />
       <section id="team" className="w-full py-12 md:py-24 lg:py-32 bg-gray-50">
         <div className="container px-4 md:px-6">
           <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-center mb-8">
-            Our Team
+            Join The Team That's Making It Happen
           </h2>
-          <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
-            <div className="flex flex-col items-center text-center">
-              <div className="w-32 h-32 rounded-full overflow-hidden mb-4">
-                <img
-                  alt="Daniel Sim"
-                  className="w-full h-full object-cover"
-                  height="128"
-                  src="/dan-headshot-uksa-accel.png?height=128&width=128"
-                  width="128"
-                />
-              </div>
-              <h3 className="text-xl font-bold mb-2">Daniel Sim</h3>
-              <p className="text-gray-600 mb-2">Founder</p>
-              <p className="text-sm text-gray-500">
-                Visionary behind the Open Space Launch Foundation, with a
-                background in Simulation Engineering, AI, and Data Science.
-              </p>
-            </div>
-          </div>
           <div className="mt-12">
             <h3 className="text-2xl font-bold mb-4 text-center">
-              Our Advisors and Mentors
+              Call for Advisors and Mentors
             </h3>
             <p className="text-center text-gray-600 mb-8">
               We are proud to have assembled a diverse team of experienced
@@ -190,10 +173,11 @@ export function AboutPage() {
               <div className="flex flex-col items-center text-center">
                 <GraduationCap className="h-12 w-12 mb-4 text-blue-600" />
                 <h4 className="text-lg font-semibold mb-2">
-                  Aerospace Professors
+                  Academics and Professionals
                 </h4>
                 <p className="text-sm text-gray-500">
-                  Leading academics in aerospace engineering and research
+                  Leading people in aerospace engineering and space exploration
+                  technology
                 </p>
               </div>
             </div>
@@ -232,7 +216,7 @@ export function AboutPage() {
                   opportunity for all.
                 </p>
                 <p>
-                  Our flagship project, OpenSLS, is the world's first
+                  Our flagship project, OpenSASA, is the world's first
                   open-source launch vehicle development platform featuring
                   high-performance physics and thermochemistry simulation with
                   procedural CAD models optimised for manufacturing with robots
