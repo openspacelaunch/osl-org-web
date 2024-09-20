@@ -65,10 +65,11 @@ export function OpenSasaPage() {
                 Revolutionizing Space Launch Technology
               </h2>
               <p className="max-w-[600px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                OpenSASA is not just a tool; it's a movement. By combining
-                cutting-edge technology with the power of open-source
-                collaboration, we're making space exploration accessible to
-                innovators, researchers, and enthusiasts around the world.
+                OpenSASA is not just a self-assembled space agency; it's a
+                movement. By combining cutting-edge technology with the power of
+                open-source collaboration, we're making space exploration
+                accessible to innovators, researchers, and enthusiasts around
+                the world.
               </p>
               <ul className="grid gap-2 py-4">
                 <li className="flex items-center gap-2">

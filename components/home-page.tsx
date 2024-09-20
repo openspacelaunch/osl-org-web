@@ -5,6 +5,7 @@ import { Button } from "@/components/ui/button";
 import { Code, Users, Database, Zap, School, Globe, Star } from "lucide-react";
 import { EmailSubscriptionForm } from "./email-subscription-form";
 import { MissionStatementSectionComponent } from "./mission-statement-section";
+import { PartnersSectionComponent } from "./partners-section";
 
 export function HomePage() {
   return (
@@ -198,6 +199,7 @@ export function HomePage() {
           </div>
         </div>
       </section>
+      <PartnersSectionComponent />
       <section
         id="get-involved"
         className="w-full py-12 md:py-24 lg:py-32 bg-blue-50"
