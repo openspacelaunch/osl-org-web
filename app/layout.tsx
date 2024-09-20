@@ -20,7 +20,9 @@ export default function RootLayout({
     <html lang="en">
       <body className={inter.className}>
         <Header />
-        <div className="flex flex-col min-h-screen">{children}</div>
+        <div className="flex flex-col min-h-screen md:mt-12 mt-8">
+          {children}
+        </div>
         <footer className="flex flex-col gap-2 sm:flex-row py-6 w-full shrink-0 items-center px-4 md:px-6 border-t">
           <p className="text-xs text-gray-500">
             © 2023 Open Space Launch Foundation. All rights reserved.
