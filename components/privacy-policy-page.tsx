@@ -4,11 +4,7 @@ import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import LastModifiedDate from "./last-modified-date";
 
-type PrivacyPolicyPageProps = {
-  lastModified: string;
-};
-
-export function PrivacyPolicyPage({ lastModified }: PrivacyPolicyPageProps) {
+export function PrivacyPolicyPage() {
   return (
     <div className="flex flex-col min-h-screen">
       <main className="flex-1 py-12 px-4 md:px-6 lg:px-8">
