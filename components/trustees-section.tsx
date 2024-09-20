@@ -1,6 +1,7 @@
 "use client";
 
-import { User } from "lucide-react";
+import { User, Linkedin } from "lucide-react";
+import Link from "next/link";
 
 export function TrusteesSectionComponent() {
   const trustees = [
@@ -10,6 +11,7 @@ export function TrusteesSectionComponent() {
         "https://media.licdn.com/dms/image/v2/D4E03AQG6nnEhZvkfhA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1721664550390?e=1732147200&v=beta&t=IE-2szD1jWASd92pF6MBkL7t2zShovt3ALWHmlZv1Ao",
       intro:
         "Visionary behind the Open Space Launch Foundation, with a background in Engineering Leadership, Simulation, AI, and Data Science.",
+      webpage: "https://www.linkedin.com/in/danniesim/",
     },
     {
       name: "Eddy James",
@@ -17,6 +19,7 @@ export function TrusteesSectionComponent() {
         "https://media.licdn.com/dms/image/v2/D4D03AQH5Obca31cezw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1680104453019?e=1732147200&v=beta&t=I9705dIxRd3CYcsQZs9dZ6STbCghG8q4Xszr2GP_Ecs",
       intro:
         "Eddy James is a seasoned business founder with a strong background in innovation and research and development (R&D) across the space, Earth Observation (EO), and geospatial information sectors. His work has spanned from start-ups to established organizations, where he has played a pivotal role in advancing cutting-edge technologies and fostering collaborative partnerships. James’s deep understanding of the space industry and his strategic vision are invaluable assets as we navigate the complexities of democratizing access to space.",
+      webpage: "https://www.linkedin.com/in/jameseddy1/",
     },
     {
       name: "Malcolm Pinto",
@@ -25,6 +28,15 @@ export function TrusteesSectionComponent() {
         "https://media.licdn.com/dms/image/v2/C5603AQHMCvQ_xNAgpg/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1606319898030?e=1732147200&v=beta&t=qAazpRgwJ_Ap4mS8ThVCeD8slSXhSDRB5hzinB-9niY",
       intro:
         "Malcolm Pinto brings a unique blend of strategic insight and operational acumen to the Foundation. With years of experience in high-level project management and leadership roles, Malcolm has been instrumental in driving complex initiatives to successful outcomes. His expertise in navigating regulatory landscapes and his commitment to promoting ethical and sustainable space practices make him a key contributor to our mission. Malcolm’s focus on ensuring the alignment of our initiatives with broader societal goals helps us maintain our commitment to open, collaborative, and responsible space exploration.",
+      webpage: "https://www.linkedin.com/in/malcolmpinto77/",
+    },
+    {
+      name: "Adriel Tey",
+      image:
+        "https://media.licdn.com/dms/image/v2/C4E03AQFa_cPr9IMomw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1517621421460?e=1732147200&v=beta&t=jyxaYdBBrO3GXTk_eDTXPIBW-7pNiAwcRFcVqmAA-2w",
+      intro:
+        "Adriel Tey is a business intelligence expert with a knack for turning complex data into actionable insights. With a background in quantitative analytics, strategic planning, and financial analysis, Adriel has a keen eye for identifying opportunities and optimizing performance. His work has driven significant business impact across various sectors, and his analytical expertise is instrumental in guiding the Foundation’s data-driven initiatives. Adriel’s strategic vision helps us leverage information to advance our mission of democratizing space exploration.",
+      webpage: "https://www.linkedin.com/in/adrieltey/",
     },
   ];
 
@@ -55,6 +67,9 @@ export function TrusteesSectionComponent() {
               </div>
               <h3 className="text-2xl font-bold mb-4">{trustee.name}</h3>
               <p className="text-gray-600 max-w-md">{trustee.intro}</p>
+              <Link href={trustee.webpage} className="text-blue-600">
+                <Linkedin className="mr-2" />
+              </Link>
             </div>
           ))}
         </div>

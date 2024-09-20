@@ -189,7 +189,7 @@ export function AboutPage() {
           <div className="grid gap-6 lg:grid-cols-[1fr_400px] lg:gap-12 xl:grid-cols-[1fr_600px]">
             <img
               alt="Founder of Open Space Launch Foundation"
-              className="mx-auto aspect-video overflow-hidden rounded-xl object-cover object-center sm:w-full lg:order-last"
+              className="mx-auto aspect-video overflow-hidden rounded-xl object-contain sm:w-full lg:order-last h-auto"
               height="310"
               src="/oslf-look-at-stars.png?height=310&width=550"
               width="550"
