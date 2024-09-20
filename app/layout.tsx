@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { GoogleTagManager } from "@next/third-parties/google";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import Link from "next/link";
@@ -42,6 +43,7 @@ export default function RootLayout({
             </Link>
           </nav>
         </footer>
+        <GoogleTagManager gtmId="GTM-KF99QDD" />
       </body>
     </html>
   );
