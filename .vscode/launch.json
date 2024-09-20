@@ -18,8 +18,19 @@
         {
             "name": "Next.js: debug client-side",
             "type": "chrome",
-            "request": "launch",
+            "request": "attach",
+            "port": 9222,
             "url": "http://localhost:3000"
+        },
+        {
+            "name": "Launch Chrome",
+            "request": "launch",
+            "type": "chrome",
+            "url": "http://localhost:3000",
+            "userDataDir": "${workspaceFolder}/chrome-user-data",
+            "runtimeArgs": [
+                "--remote-debugging-port=9222",
+            ]
         },
         {
             "name": "Next.js: debug full stack",
