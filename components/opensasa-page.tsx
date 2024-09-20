@@ -58,7 +58,7 @@ export function OpenSasaPage() {
             <img
               alt="OpenSASA Structure"
               className="mx-auto w-full h-auto rounded-xl object-contain object-center sm:w-full lg:order-last"
-              src="/OpenSASA-structure.png"
+              src="/opensasa-structure.png"
             />
             <div className="flex flex-col justify-center space-y-4">
               <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">
