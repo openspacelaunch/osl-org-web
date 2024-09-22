@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import Image from "next/image";
 import { Button } from "@/components/ui/button";
 import {
   Rocket,
@@ -55,10 +56,12 @@ export function OpenSasaPage() {
       <section className="w-full py-12 md:py-24 lg:py-32 bg-gray-100">
         <div className="container px-4 md:px-6">
           <div className="grid gap-6 lg:grid-cols-[1fr_400px] lg:gap-12 xl:grid-cols-[1fr_600px]">
-            <img
+            <Image
               alt="OpenSASA Structure"
               className="mx-auto w-full h-auto rounded-xl object-contain object-center sm:w-full lg:order-last"
               src="/opensasa-structure.png"
+              width={1024}
+              height={768}
             />
             <div className="flex flex-col justify-center space-y-4">
               <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">

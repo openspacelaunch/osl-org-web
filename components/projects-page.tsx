@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import Image from "next/image";
 import { Button } from "@/components/ui/button";
 import {
   Rocket,
@@ -35,7 +36,7 @@ export function ProjectsPage() {
       >
         <div className="container px-4 md:px-6">
           <div className="grid gap-6 lg:grid-cols-[1fr_400px] lg:gap-12 xl:grid-cols-[1fr_600px]">
-            <img
+            <Image
               alt="Meco Rocket Simulator"
               className="mx-auto aspect-video overflow-hidden rounded-xl object-cover object-center sm:w-full lg:order-last"
               height="310"
@@ -137,7 +138,7 @@ export function ProjectsPage() {
                 </Link>
               </div>
             </div>
-            <img
+            <Image
               alt="UCL Rocket Team"
               className="mx-auto aspect-video overflow-hidden rounded-xl object-cover object-center sm:w-full"
               height="310"
@@ -200,7 +201,7 @@ export function ProjectsPage() {
                 </Link>
               </div>
             </div>
-            <img
+            <Image
               alt="A.R.T. Collaboration"
               className="mx-auto aspect-video overflow-hidden rounded-xl object-contain object-center sm:w-full"
               height="310"

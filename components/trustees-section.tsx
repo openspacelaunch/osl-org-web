@@ -2,6 +2,7 @@
 
 import { User, Linkedin } from "lucide-react";
 import Link from "next/link";
+import Image from "next/image";
 
 export function TrusteesSectionComponent() {
   const trustees = [
@@ -54,10 +55,12 @@ export function TrusteesSectionComponent() {
             >
               <div className="w-48 h-48 rounded-full overflow-hidden mb-6">
                 {trustee.image ? (
-                  <img
+                  <Image
                     src={trustee.image}
                     alt={trustee.name}
                     className="w-full h-full object-cover"
+                    width={200}
+                    height={200}
                   />
                 ) : (
                   <div className="w-full h-full bg-gray-200 flex items-center justify-center">

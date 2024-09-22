@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import Image from "next/image";
 import { Button } from "@/components/ui/button";
 import { Code, Users, Database, Zap, School, Globe, Star } from "lucide-react";
 import { EmailSubscriptionForm } from "./email-subscription-form";
@@ -49,7 +50,7 @@ export function HomePage() {
         <div className="container px-4 md:px-6">
           <div className="grid gap-6 lg:grid-cols-[1fr_400px] lg:gap-12 xl:grid-cols-[1fr_600px]">
             <div className="flex justify-center lg:order-last">
-              <img
+              <Image
                 alt="Founder of Open Space Launch Foundation"
                 className="aspect-square overflow-hidden rounded-full object-cover object-center"
                 height="300"

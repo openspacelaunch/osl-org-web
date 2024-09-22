@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import { Button } from "@/components/ui/button";
 import {
   Rocket,
@@ -187,7 +188,7 @@ export function AboutPage() {
       <section id="founder" className="w-full py-12 md:py-24 lg:py-32 bg-white">
         <div className="container px-4 md:px-6">
           <div className="grid gap-6 lg:grid-cols-[1fr_400px] lg:gap-12 xl:grid-cols-[1fr_600px]">
-            <img
+            <Image
               alt="Founder of Open Space Launch Foundation"
               className="mx-auto aspect-video overflow-hidden rounded-xl object-contain sm:w-full lg:order-last h-auto"
               height="310"
@@ -267,7 +268,7 @@ export function AboutPage() {
             Our Structure
           </h2>
           <div className="flex flex-col items-center space-y-4">
-            <img
+            <Image
               alt="Open Space Launch Foundation Structure"
               className="w-full max-w-3xl h-auto rounded-xl shadow-lg"
               height="600"

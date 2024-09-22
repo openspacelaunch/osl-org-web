@@ -3,6 +3,7 @@
 import { useState, useEffect, useCallback } from "react";
 import { useRouter, usePathname } from "next/navigation";
 import Link from "next/link";
+import Image from "next/image";
 import { Button } from "@/components/ui/button";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 import { Menu, X } from "lucide-react";
@@ -83,10 +84,12 @@ export default function Header() {
     >
       <div className="px-4 lg:px-6 h-10 md:h-14 flex items-center bg-white shadow-md">
         <Link className="flex items-center justify-center" href="/">
-          <img
+          <Image
             className="max-h-8 md:max-h-12 w-auto mr-2"
-            src="slf-logo-banner-default.png"
+            src="/slf-logo-banner-default.png"
             alt="Open Space Launch Foundation Logo"
+            width={200}
+            height={200}
           />
         </Link>
         <nav className="ml-auto hidden md:flex gap-4 sm:gap-6">
