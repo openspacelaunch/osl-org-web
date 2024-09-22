@@ -76,7 +76,7 @@ export function HomePage() {
                     href="/about/#founder-word-continued"
                     className="text-blue-500 hover:underline justify-right"
                   >
-                    Read More
+                    View Full Message
                   </Link>
                 </div>
               </div>

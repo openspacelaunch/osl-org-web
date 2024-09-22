@@ -11,7 +11,7 @@ export function TrusteesSectionComponent() {
       image:
         "https://media.licdn.com/dms/image/v2/D4E03AQG6nnEhZvkfhA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1721664550390?e=1732147200&v=beta&t=IE-2szD1jWASd92pF6MBkL7t2zShovt3ALWHmlZv1Ao",
       intro:
-        "Visionary behind the Open Space Launch Foundation, with a background in Engineering Leadership, Simulation, AI, and Data Science.",
+        "Visionary behind the Open Space Launch Foundation, with a background in Engineering Leadership, Simulation, AI, and Data Science. Creator of Meco Rocket Simulator, a popular rocket simulation software. Daniel is passionate about democratizing access to space and has a strong track record of leading complex, multi-disciplinary projects. His commitment to open-source principles and his dedication to fostering a collaborative community are at the core of the Foundation’s mission.",
       webpage: "https://www.linkedin.com/in/danniesim/",
     },
     {
