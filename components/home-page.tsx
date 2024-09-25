@@ -53,10 +53,10 @@ export function HomePage() {
             <div className="flex justify-center lg:order-last">
               <Image
                 alt="Founder of Open Space Launch Foundation"
-                className="aspect-square overflow-hidden rounded-full object-cover object-center"
-                height="300"
-                src="/dan-headshot-uksa-accel.png?height=300&width=300"
-                width="300"
+                className="aspect-square overflow-hidden rounded-full object-cover object-center w-80 h-auto"
+                height="400"
+                src="/dan-headshot-uksa-accel.png"
+                width="400"
               />
             </div>
             <div className="flex flex-col justify-center space-y-4">
