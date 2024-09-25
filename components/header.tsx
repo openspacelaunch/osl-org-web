@@ -23,13 +23,13 @@ export default function Header() {
       setIsOpen(false);
 
       if (href.startsWith("#")) {
-        if (pathname === "/") {
-          const element = document.querySelector(href);
-          if (element) {
-            element.scrollIntoView({ behavior: "smooth" });
-          }
-        } else {
-          router.push("/");
+        if (href === "#get-involved") {
+          //   const element = document.querySelector(href);
+          //   if (element) {
+          //     element.scrollIntoView({ behavior: "smooth" });
+          //   }
+          // } else {
+          // router.push("/");
           setTimeout(() => {
             const element = document.querySelector(href);
             if (element) {
@@ -73,7 +73,7 @@ export default function Header() {
     { href: "/about", label: "About" },
     { href: "/opensasa", label: "OpenSASA" },
     { href: "/projects", label: "Projects" },
-    { href: "/#get-involved", label: "Get Involved" },
+    { href: "#get-involved", label: "Get Involved" },
   ];
 
   return (
