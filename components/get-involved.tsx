@@ -1,6 +1,7 @@
 "use client";
 
 import { EmailSubscriptionForm } from "./email-subscription-form";
+import { JoinPatreonComponent } from "./join-patreon";
 
 export function GetInvolvedComponent() {
   return (
@@ -23,6 +24,7 @@ export function GetInvolvedComponent() {
           <div className="w-full max-w-sm space-y-2">
             <EmailSubscriptionForm />
           </div>
+          <JoinPatreonComponent />
         </div>
       </div>
     </section>
