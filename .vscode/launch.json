@@ -5,7 +5,7 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "Next.js: debug server-side",
+            "name": "Debug Next.js Server",
             "type": "node-terminal",
             "request": "launch",
             "command": "yarn dev",
@@ -16,14 +16,7 @@
             // "cwd": "${workspaceFolder}/app"
         },
         {
-            "name": "Next.js: debug client-side",
-            "type": "chrome",
-            "request": "attach",
-            "port": 9222,
-            "url": "http://localhost:3000"
-        },
-        {
-            "name": "Launch Chrome",
+            "name": "Launch and Debug Chrome",
             "request": "launch",
             "type": "chrome",
             "url": "http://localhost:3000",
@@ -40,12 +33,17 @@
             "runtimeArgs": ["--inspect"],
             "skipFiles": ["<node_internals>/**"],
             "serverReadyAction": {
-                "action": "debugWithEdge",
+                "action": "startDebugging",
                 "killOnServerStop": true,
                 "pattern": "- Local:.+(https?://.+)",
-                "uriFormat": "%s",
-                "webRoot": "${workspaceFolder}"
+                "name": "Launch and Debug Chrome"
             }
+        }
+    ],
+    "compounds": [
+        {
+            "name": "Next.js: Server and Chrome",
+            "configurations": ["Debug Next.js Server", "Launch and Debug Chrome"]
         }
     ]
 }

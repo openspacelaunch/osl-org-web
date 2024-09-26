@@ -5,8 +5,15 @@ import { useRouter, usePathname } from "next/navigation";
 import Link from "next/link";
 import Image from "next/image";
 import { Button } from "@/components/ui/button";
-import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
+import {
+  Sheet,
+  SheetContent,
+  SheetTrigger,
+  SheetTitle,
+  SheetDescription,
+} from "@/components/ui/sheet";
 import { Menu, X } from "lucide-react";
+import { VisuallyHidden } from "@radix-ui/react-visually-hidden";
 
 export default function Header() {
   const [isOpen, setIsOpen] = useState(false);
@@ -24,12 +31,6 @@ export default function Header() {
 
       if (href.startsWith("#")) {
         if (href === "#get-involved") {
-          //   const element = document.querySelector(href);
-          //   if (element) {
-          //     element.scrollIntoView({ behavior: "smooth" });
-          //   }
-          // } else {
-          // router.push("/");
           setTimeout(() => {
             const element = document.querySelector(href);
             if (element) {
@@ -115,7 +116,13 @@ export default function Header() {
               )}
             </Button>
           </SheetTrigger>
+          <VisuallyHidden>
+            <SheetTitle>Menu</SheetTitle>
+          </VisuallyHidden>
           <SheetContent side="right" className="p-4">
+            <VisuallyHidden>
+              <SheetDescription>Navigation Items</SheetDescription>
+            </VisuallyHidden>
             <nav className="flex flex-col gap-4">
               {navItems.map((item) => (
                 <Link
@@ -123,7 +130,7 @@ export default function Header() {
                   href={item.href}
                   onClick={(e) => handleNavigation(e, item.href)}
                 >
-                  <span className="text-lg font-medium">{item.label}</span>
+                  {item.label}
                 </Link>
               ))}
             </nav>

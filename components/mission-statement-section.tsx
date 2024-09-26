@@ -12,8 +12,8 @@ export function MissionStatementSectionComponent() {
           </h2>
           <p className="max-w-[800px] text-xl md:text-2xl text-gray-200 leading-relaxed">
             To empower and accelerate student-led space projects across the
-            Middle East and North Africa (MENA) region, with the UK setting the
-            benchmark for innovation and collaboration.
+            Middle East and Africa, with the UK setting the benchmark for
+            innovation and collaboration.
           </p>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mt-12">
             <div className="flex flex-col items-center space-y-2">
@@ -25,7 +25,7 @@ export function MissionStatementSectionComponent() {
             </div>
             <div className="flex flex-col items-center space-y-2">
               <Globe className="w-12 h-12 text-green-400" />
-              <h3 className="text-xl font-semibold">MENA Focus</h3>
+              <h3 className="text-xl font-semibold">M.E. & Africa Focus</h3>
               <p className="text-sm text-gray-300">
                 Expand across the region and beyond
               </p>
