@@ -20,10 +20,6 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        <Script
-          src="https://www.googletagmanager.com/gtag/js?id=GTM-KF99QDD"
-          strategy="afterInteractive"
-        />
         <Script id="gtm" strategy="afterInteractive">
           {`
 (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
