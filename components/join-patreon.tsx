@@ -4,15 +4,25 @@ import { useEffect } from "react";
 
 export function JoinPatreonComponent() {
   useEffect(() => {
-    const script = document.createElement("script");
-    script.src = "https://c6.patreon.com/becomePatronButton.bundle.js";
-    script.async = true;
-    document.body.appendChild(script);
+    const handleLoad = () => {
+      const script = document.createElement("script");
+      script.src = "https://c6.patreon.com/becomePatronButton.bundle.js";
+      script.async = true;
+      document.body.appendChild(script);
 
-    return () => {
-      document.body.removeChild(script);
+      return () => {
+        document.body.removeChild(script);
+      };
     };
+
+    if (document.readyState === "complete") {
+      handleLoad();
+    } else {
+      window.addEventListener("load", handleLoad);
+      return () => window.removeEventListener("load", handleLoad);
+    }
   }, []);
+
   return (
     <div>
       <a
