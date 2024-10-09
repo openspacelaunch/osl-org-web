@@ -21,18 +21,18 @@ export function HomePage() {
                 Democratizing Space Launch Technology
               </h1>
               <p className="mx-auto max-w-[700px] text-gray-300 md:text-xl">
-                Open Space Launch Foundation is developing OpenSASA - the
+                Open Space Launch Foundation is developing OpenSASI - the
                 world's first open-source launch vehicle development platform,
                 making space exploration accessible to all.
               </p>
             </div>
             <div className="space-x-4">
-              <Link href="opensasa">
+              <Link href="OpenSASI">
                 <Button
                   variant="outline"
                   className="bg-white text-black hover:bg-gray-200"
                 >
-                  Explore OpenSASA
+                  Explore OpenSASI
                 </Button>
               </Link>
               <Link href="#get-involved">
@@ -113,12 +113,12 @@ export function HomePage() {
         </div>
       </section>
       <section
-        id="opensasa"
+        id="OpenSASI"
         className="w-full py-12 md:py-24 lg:py-32 bg-white"
       >
         <div className="container px-4 md:px-6">
           <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-center mb-8">
-            OpenSASA: Open Student and Amateur Space Agency
+            OpenSASI: Open Student-Amateur Space Initiative
           </h2>
           <p className="text-center max-w-[800px] mx-auto text-gray-500 md:text-xl/relaxed mb-12">
             The world's first open-source launch vehicle development platform
@@ -157,9 +157,9 @@ export function HomePage() {
             </div>
           </div>
           <div className="flex flex-col items-center text-center mt-12">
-            <Link href="opensasa">
+            <Link href="OpenSASI">
               <Button className="bg-blue-600 text-white hover:bg-blue-700">
-                Explore OpenSASA
+                Explore OpenSASI
               </Button>
             </Link>
           </div>
@@ -186,7 +186,7 @@ export function HomePage() {
               </h3>
               <p className="text-gray-600">
                 Rally amateur and student space launch projects to use and
-                contribute to OpenSASA, accelerating their progress towards
+                contribute to OpenSASI, accelerating their progress towards
                 orbital and beyond.
               </p>
             </div>

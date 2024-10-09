@@ -18,7 +18,7 @@ export function GetInvolvedComponent() {
             <p className="mx-auto max-w-[600px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
               Whether you're a space enthusiast, student, researcher, or
               professional, there's a place for you in our mission. Get involved
-              with OpenSASA and help shape the future of space exploration.
+              with OpenSASI and help shape the future of space exploration.
             </p>
           </div>
           <div className="w-full max-w-sm space-y-2">

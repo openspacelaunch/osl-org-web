@@ -48,7 +48,7 @@ export function AboutPage() {
           <div className="space-y-8">
             <div>
               <h3 className="text-2xl font-bold mb-4">
-                1. Develop Open Student and Amateur Space Agency (OpenSASA)
+                1. Develop Open Student-Amateur Space Initiative (OpenSASI)
               </h3>
               <p className="text-gray-600 mb-4">
                 Create a distributed system comprised of integrated open-source
@@ -108,7 +108,7 @@ export function AboutPage() {
               </h3>
               <p className="text-gray-600">
                 Encourage and support amateur and student space launch projects
-                to use and contribute to OpenSASA, fostering a collaborative
+                to use and contribute to OpenSASI, fostering a collaborative
                 ecosystem for space exploration enthusiasts.
               </p>
             </div>
@@ -218,7 +218,7 @@ export function AboutPage() {
                   opportunity for all.
                 </p>
                 <p>
-                  Our flagship project, OpenSASA, is the world's first
+                  Our flagship project, OpenSASI, is the world's first
                   open-source launch vehicle development platform featuring
                   high-performance physics and thermochemistry simulation with
                   procedural CAD models optimised for manufacturing with robots

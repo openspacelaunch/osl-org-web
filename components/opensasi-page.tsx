@@ -18,10 +18,9 @@ import {
   BarChart2,
   Wifi,
 } from "lucide-react";
-import { EmailSubscriptionForm } from "./email-subscription-form";
 import { GetInvolvedComponent } from "./get-involved";
 
-export function OpenSasaPage() {
+export function OpenSASIPage() {
   return (
     <main className="flex-1">
       <section className="w-full py-12 md:py-24 lg:py-32 xl:py-48 bg-black text-white">
@@ -29,11 +28,12 @@ export function OpenSasaPage() {
           <div className="flex flex-col items-center space-y-4 text-center">
             <div className="space-y-2">
               <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl lg:text-6xl/none">
-                OpenSASA: Open Student and Amateur Space Agency
+                OpenSASI: Open Student-Amateur Space Initiative
               </h1>
               <p className="mx-auto max-w-[700px] text-gray-300 md:text-xl">
-                The world's first open-source launch vehicle development
-                platform, democratizing space exploration for all.
+                The world's first open-source launch vehicle development and
+                operations. Flagship project of the Open Space Launch
+                Foundation.
               </p>
             </div>
             <div className="space-x-4">
@@ -58,9 +58,9 @@ export function OpenSasaPage() {
         <div className="container px-4 md:px-6">
           <div className="grid gap-6 lg:grid-cols-[1fr_400px] lg:gap-12 xl:grid-cols-[1fr_600px]">
             <Image
-              alt="OpenSASA Structure"
+              alt="OpenSASI Structure"
               className="mx-auto w-full h-auto rounded-xl object-contain object-center sm:w-full lg:order-last"
-              src="/opensasa-structure.png"
+              src="/open_sasi.puml.png"
               width={1024}
               height={768}
             />
@@ -69,7 +69,7 @@ export function OpenSasaPage() {
                 Revolutionizing Space Launch Technology
               </h2>
               <p className="max-w-[600px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                OpenSASA is not just a self-assembled space agency; it's a
+                OpenSASI is not just a self-assembled space agency; it's a
                 movement. By combining cutting-edge technology with the power of
                 open-source collaboration, we're making space exploration
                 accessible to innovators, researchers, and enthusiasts around
@@ -107,7 +107,7 @@ export function OpenSasaPage() {
       >
         <div className="container px-4 md:px-6">
           <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-center mb-8">
-            Key Features of OpenSASA
+            Key Features of OpenSASI
           </h2>
           <div className="grid gap-10 sm:grid-cols-2 lg:grid-cols-3">
             <div className="flex flex-col items-center text-center">
@@ -220,7 +220,7 @@ export function OpenSasaPage() {
               <h3 className="text-xl font-bold mb-2">LorenRobotics</h3>
               <p className="text-gray-600">
                 Suite of tools for developing autonomous robots for complex
-                tasks in challenging space environments.
+                tasks in manufacturing and challenging space environments.
               </p>
             </div>
             <div className="flex flex-col items-center text-center">
