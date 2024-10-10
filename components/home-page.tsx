@@ -27,7 +27,7 @@ export function HomePage() {
               </p>
             </div>
             <div className="space-x-4">
-              <Link href="OpenSASI">
+              <Link href="opensasi">
                 <Button
                   variant="outline"
                   className="bg-white text-black hover:bg-gray-200"
@@ -157,7 +157,7 @@ export function HomePage() {
             </div>
           </div>
           <div className="flex flex-col items-center text-center mt-12">
-            <Link href="OpenSASI">
+            <Link href="opensasi">
               <Button className="bg-blue-600 text-white hover:bg-blue-700">
                 Explore OpenSASI
               </Button>
