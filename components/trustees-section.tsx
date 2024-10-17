@@ -15,6 +15,14 @@ export function TrusteesSectionComponent() {
       webpage: "https://www.linkedin.com/in/danniesim/",
     },
     {
+      name: "Dr Alistair John",
+      image:
+        "https://media.licdn.com/dms/image/v2/C4D03AQFfUUmdqwE4Rw/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1599733153906?e=1734566400&v=beta&t=XtPGftSnjI8__LCXX0cymT60umQc99_chmkfVhEznzY",
+      intro:
+        "Dr Alistair is the founder of Race2Space and Aerospace Engineering Programme Lead at the University of Sheffield, is a National Teaching Fellow (2024) and Vice Chancellor’s Award winner (2022). He supervises Project Sunride and founded the UK Launch Education Working Group. With 8 years of industry experience, including work with Rolls-Royce, he has led award-winning research in aerospace engineering",
+      webpage: "https://www.linkedin.com/in/alistair-john/",
+    },
+    {
       name: "Eddy James",
       image:
         "https://media.licdn.com/dms/image/v2/D4D03AQH5Obca31cezw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1680104453019?e=1732147200&v=beta&t=I9705dIxRd3CYcsQZs9dZ6STbCghG8q4Xszr2GP_Ecs",
@@ -38,6 +46,14 @@ export function TrusteesSectionComponent() {
       intro:
         "Adriel Tey is a business intelligence expert with a knack for turning complex data into actionable insights. With a background in quantitative analytics, strategic planning, and financial analysis, Adriel has a keen eye for identifying opportunities and optimizing performance. His work has driven significant business impact across various sectors, and his analytical expertise is instrumental in guiding the Foundation’s data-driven initiatives. Adriel’s strategic vision helps us leverage information to advance our mission of democratizing space exploration.",
       webpage: "https://www.linkedin.com/in/adrieltey/",
+    },
+    {
+      name: "Mystery Astronaut",
+      image:
+        "https://media.licdn.com/dms/image/v2/D4E12AQEud3Ll5MI7cQ/article-inline_image-shrink_1500_2232/article-inline_image-shrink_1500_2232/0/1660833954461?e=1734566400&v=beta&t=zuHbn0o0kbFtEli2c1ZYFN2ktmcRdefVL5xVTrKSmEk",
+      intro:
+        "The foundation is chatting with a candidate trustee who is an astronaut.",
+      webpage: "https://www.linkedin.com",
     },
   ];
 
