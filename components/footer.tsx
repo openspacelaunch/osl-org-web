@@ -8,9 +8,9 @@ export function FooterComponent() {
       <p className="text-xs text-gray-500 sm:w-1/2">
         © 2024 Open Space Launch Foundation. All rights reserved.
         <br />
-        Open Space Launch Foundation is a charity being registered in England
-        and Wales (Application No. 5247450). Registered Office: 86-90 Paul
-        Street, London, EC2A 4NE.
+        Open Space Launch Foundation is a CIO (Charitable Incorporated
+        Organisation) pending registration with the Charity Commission for
+        England and Wales (Application No. 5247450).
       </p>
       <nav className="sm:ml-auto flex gap-4 sm:gap-6">
         <Link
