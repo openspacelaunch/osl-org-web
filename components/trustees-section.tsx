@@ -23,11 +23,11 @@ export function TrusteesSectionComponent() {
       webpage: "https://www.linkedin.com/in/alistair-john/",
     },
     {
-      name: "Eddy James",
+      name: "James Eddy",
       image:
         "https://media.licdn.com/dms/image/v2/D4D03AQH5Obca31cezw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1680104453019?e=1732147200&v=beta&t=I9705dIxRd3CYcsQZs9dZ6STbCghG8q4Xszr2GP_Ecs",
       intro:
-        "Eddy James is a seasoned business founder with a strong background in innovation and research and development (R&D) across the space, Earth Observation (EO), and geospatial information sectors. His work has spanned from start-ups to established organizations, where he has played a pivotal role in advancing cutting-edge technologies and fostering collaborative partnerships. James’s deep understanding of the space industry and his strategic vision are invaluable assets as we navigate the complexities of democratizing access to space.",
+        "James Eddy is a seasoned business founder with a strong background in innovation and research and development (R&D) across the space, Earth Observation (EO), and geospatial information sectors. His work has spanned from start-ups to established organizations, where he has played a pivotal role in advancing cutting-edge technologies and fostering collaborative partnerships. James’s deep understanding of the space industry and his strategic vision are invaluable assets as we navigate the complexities of democratizing access to space.",
       webpage: "https://www.linkedin.com/in/jameseddy1/",
     },
     {
