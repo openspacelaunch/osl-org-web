@@ -29,7 +29,7 @@ export function TrusteesSectionComponent() {
     },
     {
       name: "Malcolm Pinto",
-      image: "/malcom-pinto-glam-pic-headshot.jpg?height=200&width=200",
+      image: "/malcom-pinto-profile-pic.jpg?height=200&width=200",
       intro:
         "Malcolm Pinto brings a unique blend of strategic insight and operational acumen to the Foundation. With years of experience in high-level project management and leadership roles, Malcolm has been instrumental in driving complex initiatives to successful outcomes. His expertise in navigating regulatory landscapes and his commitment to promoting ethical and sustainable space practices make him a key contributor to our mission. Malcolm’s focus on ensuring the alignment of our initiatives with broader societal goals helps us maintain our commitment to open, collaborative, and responsible space exploration.",
       webpage: "https://www.linkedin.com/in/malcolmpinto77/",
