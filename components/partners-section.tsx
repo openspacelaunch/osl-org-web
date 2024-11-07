@@ -5,6 +5,11 @@ import Image from "next/image";
 export function PartnersSectionComponent() {
   const partners = [
     {
+      name: "Race2Space",
+      logo: "/race2space-logo.png",
+    },
+    { name: "Advanced Rocket Technologies", logo: "/advancedrocket_logo.jpg" },
+    {
       name: "UK Space Agency",
       logo: "/uksa-accel-white-on-transp.png",
     },
@@ -21,8 +26,6 @@ export function PartnersSectionComponent() {
       name: "Tripoli Rocketry Association",
       logo: "/Tripoli-rocketry-association.jpg",
     },
-    { name: "Advanced Rocket Technologies", logo: "/advancedrocket_logo.jpg" },
-    // { name: "Partner 6", logo: "/placeholder.svg?height=100&width=200" },
   ];
 
   return (
