@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "start:chromium": "chromium http://localhost:3000 --new-window --remote-debugging-port=9222 --user-data-dir=./chrome-user-data"
   },
   "dependencies": {
     "@azure/communication-email": "^1.0.0",
