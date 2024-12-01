@@ -39,10 +39,10 @@ export async function POST(request: Request) {
     const message: EmailMessage = {
       senderAddress: 'DoNotReply@openspacelaunch.org',
       content: {
-        subject: 'Welcome to the Open Space Launch Foundation Community! 🚀',
+        subject: 'Welcome to the Open Space Launch Community! 🚀',
         plainText: `Dear Space Revolutionary,
 
-Thank you for signing up for the Open Space Launch Foundation (OSLF) newsletter! We’re thrilled to have you join us on this exciting journey to democratize space exploration.
+Thank you for signing up for the Open Space Launch newsletter! We’re thrilled to have you join us on this exciting journey to democratize space exploration.
 
 By subscribing, you’ll be among the first to hear about our latest projects, open-source tools, upcoming events, and opportunities to get involved. Whether you’re a seasoned space enthusiast, a budding scientist, or just curious about the cosmos, there’s something here for everyone!
 
@@ -57,7 +57,7 @@ Thank you once again for your interest and support. Together, we can make space 
 
 Warm regards,
 Daniel Sim
-Founder, Open Space Launch Foundation`,
+Founder, Open Space Launch`,
       },
       recipients: {
         to: [

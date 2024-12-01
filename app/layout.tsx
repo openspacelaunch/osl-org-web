@@ -8,7 +8,7 @@ import Script from "next/script";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Open Space Launch Foundation",
+  title: "Open Space Launch",
   description: "Democratizing Space Launch Technology",
 };
 

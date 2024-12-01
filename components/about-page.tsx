@@ -27,7 +27,7 @@ export function AboutPage() {
           <div className="flex flex-col items-center space-y-4 text-center">
             <div className="space-y-2">
               <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl lg:text-6xl/none">
-                About Open Space Launch Foundation
+                About Open Space Launch
               </h1>
               <p className="mx-auto max-w-[700px] text-gray-300 md:text-xl">
                 Democratizing space exploration through open-source technology
@@ -190,7 +190,7 @@ export function AboutPage() {
         <div className="container px-4 md:px-6">
           <div className="grid gap-6 lg:grid-cols-[1fr_400px] lg:gap-12 xl:grid-cols-[1fr_600px]">
             <Image
-              alt="Founder of Open Space Launch Foundation"
+              alt="Founder of Open Space Launch"
               className="mx-auto aspect-video overflow-hidden rounded-xl object-contain sm:w-full lg:order-last h-auto"
               height="310"
               src="/oslf-look-at-stars.png?height=310&width=550"
@@ -206,8 +206,8 @@ export function AboutPage() {
                   Today, I recognise that democratising access to space is a
                   monumental challenge that may take a lifetime or more to
                   achieve fully. Yet, with unwavering dedication, I founded the
-                  Open Space Launch Foundation to make that dream a reality for
-                  everyone, not just powerful nations and billionaires.
+                  Open Space Launch to make that dream a reality for everyone,
+                  not just powerful nations and billionaires.
                 </p>
                 <p id="founder-word-continued">
                   Leveraging my background in Simulation Engineering, AI, and
@@ -270,16 +270,16 @@ export function AboutPage() {
           </h2>
           <div className="flex flex-col items-center space-y-4">
             <Image
-              alt="Open Space Launch Foundation Structure"
+              alt="Open Space Launch Structure"
               className="w-full max-w-3xl h-auto rounded-xl shadow-lg"
               height="600"
               src="/oslf-structure-simple.png"
               width="800"
             />
             <p className="text-center text-gray-500 mt-4">
-              The Open Space Launch Foundation is structured to maximize
-              collaboration, innovation, and transparency in our mission to
-              democratize space exploration.
+              Open Space Launch is structured to maximize collaboration,
+              innovation, and transparency in our mission to democratize space
+              exploration.
             </p>
           </div>
         </div>

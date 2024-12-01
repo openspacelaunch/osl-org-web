@@ -6,11 +6,13 @@ export function FooterComponent() {
   return (
     <footer className="flex flex-col gap-2 sm:flex-row py-6 w-full shrink-0 items-center px-4 md:px-6 border-t">
       <p className="text-xs text-gray-500 sm:w-1/2">
-        © 2024 Open Space Launch Foundation. All rights reserved.
+        © 2024 Open Space Launch Ltd. All rights reserved.
         <br />
-        Open Space Launch Foundation is a CIO (Charitable Incorporated
-        Organisation) pending registration with the Charity Commission for
-        England and Wales (Application No. 5247450).
+        Open Space Launch Ltd is a (nonprofit) company limited by guarantee
+        registered in England and Wales with company number 16101697.
+        <br />
+        Registered office: 30 Churchill Place, Canary Wharf, London E14 5RE,
+        United Kingdom.
       </p>
       <nav className="sm:ml-auto flex gap-4 sm:gap-6">
         <Link
