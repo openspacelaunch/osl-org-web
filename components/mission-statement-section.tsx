@@ -11,9 +11,11 @@ export function MissionStatementSectionComponent() {
             Our Mission
           </h2>
           <p className="max-w-[800px] text-xl md:text-2xl text-gray-200 leading-relaxed">
-            To empower and accelerate student-led space projects across the
-            Middle East and Africa, with the UK setting the benchmark for
-            innovation and collaboration.
+            Our mission is to empower students and hobbyists worldwide to launch
+            space missions collaboratively, particularly in nurturing talent and
+            opportunities in the Middle East and Africa. Under the guidance of
+            UK leadership, we are dedicated to making space exploration a safe,
+            inclusive, and exciting frontier for anyone.
           </p>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mt-12">
             <div className="flex flex-col items-center space-y-2">
