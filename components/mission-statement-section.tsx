@@ -27,7 +27,7 @@ export function MissionStatementSectionComponent() {
               <Globe className="w-12 h-12 text-green-400" />
               <h3 className="text-xl font-semibold">M.E. & Africa Focus</h3>
               <p className="text-sm text-gray-300">
-                Support students across the region and beyond
+                UK led, with a focus on underserved regions
               </p>
             </div>
             <div className="flex flex-col items-center space-y-2">
