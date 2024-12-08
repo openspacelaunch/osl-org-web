@@ -18,12 +18,12 @@ export function HomePage() {
           <div className="flex flex-col items-center space-y-4 text-center">
             <div className="space-y-2">
               <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl lg:text-6xl/none">
-                Democratizing Space Launch Technology
+                Empowering Space Science Education
               </h1>
               <p className="mx-auto max-w-[700px] text-gray-300 md:text-xl">
                 Open Space Launch Foundation is developing OpenSASI - the
                 world's first open-source launch vehicle development platform,
-                making space exploration accessible to all.
+                making space missions accessible to students.
               </p>
             </div>
             <div className="space-x-4">
@@ -66,11 +66,11 @@ export function HomePage() {
                 </h2>
                 <p className="max-w-[600px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
                   "As a child, I dreamed of exploring new worlds under the
-                  stars. Today, I recognise that democratising access to space
-                  is a monumental challenge that may take a lifetime or more to
-                  achieve fully. Yet, with unwavering dedication, I founded the
-                  Open Space Launch Foundation to make that dream a reality for
-                  everyone, not just powerful nations and billionaires."
+                  stars. Today, I recognise that making space science education
+                  accessible is a monumental challenge that can take more than a
+                  lifetime to achieve. Yet, with unwavering dedication, I
+                  founded the Open Space Launch Foundation to make that dream a
+                  reality for everyone."
                 </p>
                 <div className="max-w-[600px] text-right">
                   <Link
@@ -181,20 +181,17 @@ export function HomePage() {
             </div>
             <div className="flex flex-col items-center text-center">
               <School className="h-12 w-12 mb-4 text-blue-600" />
-              <h3 className="text-xl font-bold mb-2">
-                Empower Amateurs & Students
-              </h3>
+              <h3 className="text-xl font-bold mb-2">Empower Students</h3>
               <p className="text-gray-600">
-                Rally amateur and student space launch projects to use and
-                contribute to OpenSASI, accelerating their progress towards
-                orbital and beyond.
+                Rally student space launch projects to use and contribute to
+                OpenSASI, accelerating their progress towards space missions.
               </p>
             </div>
             <div className="flex flex-col items-center text-center">
               <Globe className="h-12 w-12 mb-4 text-blue-600" />
               <h3 className="text-xl font-bold mb-2">Expand Horizons</h3>
               <p className="text-gray-600">
-                Push the boundaries of amateur space programs to achieve payload
+                Push the boundaries of student space programs to achieve payload
                 orbital insertion and interplanetary missions.
               </p>
             </div>

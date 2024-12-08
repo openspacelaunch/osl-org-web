@@ -1,7 +1,6 @@
 "use client";
 
 import Image from "next/image";
-import { Button } from "@/components/ui/button";
 import {
   Rocket,
   Users,
@@ -30,8 +29,8 @@ export function AboutPage() {
                 About Open Space Launch
               </h1>
               <p className="mx-auto max-w-[700px] text-gray-300 md:text-xl">
-                Democratizing space exploration through open-source technology
-                and global collaboration.
+                Make space science education accessible through open-source
+                technology and global collaboration.
               </p>
             </div>
           </div>
@@ -52,7 +51,8 @@ export function AboutPage() {
               </h3>
               <p className="text-gray-600 mb-4">
                 Create a distributed system comprised of integrated open-source
-                software and hardware to revolutionize space exploration:
+                software and hardware to revolutionize student space
+                exploration:
               </p>
               <ul className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
                 <li className="flex items-start space-x-2">
@@ -104,22 +104,22 @@ export function AboutPage() {
             </div>
             <div>
               <h3 className="text-2xl font-bold mb-4">
-                2. Rally Amateur and Student Projects
+                2. Rally Student Projects
               </h3>
               <p className="text-gray-600">
-                Encourage and support amateur and student space launch projects
-                to use and contribute to OpenSASI, fostering a collaborative
-                ecosystem for space exploration enthusiasts.
+                Advocate for student space launch projects to use and contribute
+                to OpenSASI, fostering a collaborative ecosystem for space
+                science education.
               </p>
             </div>
             <div>
               <h3 className="text-2xl font-bold mb-4">
-                3. Accelerate Space Programs
+                3. Accelerate Student Space Programs
               </h3>
               <p className="text-gray-600">
-                Empower amateur and student space programs to achieve ambitious
-                goals, including payload orbital insertion, trans-lunar
-                missions, and interplanetary exploration.
+                Empower student space programs to achieve ambitious goals,
+                including payload orbital insertion, trans-lunar missions, and
+                interplanetary exploration.
               </p>
             </div>
           </div>
@@ -203,11 +203,11 @@ export function AboutPage() {
               <div className="space-y-4 text-gray-500">
                 <p>
                   As a child, I dreamed of exploring new worlds under the stars.
-                  Today, I recognise that democratising access to space is a
-                  monumental challenge that may take a lifetime or more to
-                  achieve fully. Yet, with unwavering dedication, I founded the
-                  Open Space Launch to make that dream a reality for everyone,
-                  not just powerful nations and billionaires.
+                  Today, I recognise that making space science education
+                  accessible is a monumental challenge that can take more than a
+                  lifetime to achieve. Yet, with unwavering dedication, I
+                  founded the Open Space Launch Foundation to make that dream a
+                  reality for everyone.
                 </p>
                 <p id="founder-word-continued">
                   Leveraging my background in Simulation Engineering, AI, and
@@ -232,8 +232,8 @@ export function AboutPage() {
                   With the support of over 140 Kickstarter backers, 2000
                   newsletter subscribers, and 5000 social media followers, we
                   are focused and building. Join us in making a difference!
-                  Together, we will realise the democratisation of space
-                  exploration and turn the impossible into the inevitable.
+                  Together, we will make space science education accessible and
+                  turn the impossible into the inevitable.
                 </p>
               </div>
               <ul className="grid gap-2 py-4">
@@ -278,8 +278,8 @@ export function AboutPage() {
             />
             <p className="text-center text-gray-500 mt-4">
               Open Space Launch is structured to maximize collaboration,
-              innovation, and transparency in our mission to democratize space
-              exploration.
+              innovation, and transparency in our mission to advance space
+              science education.
             </p>
           </div>
         </div>
