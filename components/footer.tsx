@@ -11,8 +11,8 @@ export function FooterComponent() {
         Open Space Launch Ltd is a (nonprofit) company limited by guarantee
         registered in England and Wales with company number 16101697.
         <br />
-        Registered office: 30 Churchill Place, Canary Wharf, London E14 5RE,
-        United Kingdom.
+        Registered office: 101 King's Cross Road, London, WC1X 9LP, United
+        Kingdom
       </p>
       <nav className="sm:ml-auto flex gap-4 sm:gap-6">
         <Link
