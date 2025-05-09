@@ -40,9 +40,9 @@ export function ProjectsPage() {
             <Image
               alt="Meco Rocket Simulator"
               className="mx-auto aspect-video overflow-hidden rounded-xl object-cover object-center sm:w-full lg:order-last"
-              height="310"
-              src="/meco_v3_banner_just_funded.png?height=310&width=550"
-              width="550"
+              height={310}
+              src="/meco_v3_banner_just_funded.png"
+              width={550}
             />
             <div className="flex flex-col justify-center space-y-4">
               <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">
@@ -142,9 +142,9 @@ export function ProjectsPage() {
             <Image
               alt="UCL Rocket Team"
               className="mx-auto aspect-video overflow-hidden rounded-xl object-cover object-center sm:w-full"
-              height="310"
-              src="/ucl-rocket-race2space.jpg?height=310&width=550"
-              width="550"
+              height={310}
+              src="/ucl-rocket-race2space.jpg"
+              width={550}
             />
           </div>
         </div>
@@ -205,9 +205,9 @@ export function ProjectsPage() {
             <Image
               alt="A.R.T. Collaboration"
               className="mx-auto aspect-video overflow-hidden rounded-xl object-contain object-center sm:w-full"
-              height="310"
-              src="/A.R.T_Press-release-1.png?height=310&width=550"
-              width="550"
+              height={310}
+              src="/A.R.T_Press-release-1.png"
+              width={550}
             />
           </div>
         </div>

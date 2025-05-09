@@ -55,7 +55,7 @@ export function HomePage() {
                 alt="Founder of Open Space Launch Foundation"
                 className="aspect-square overflow-hidden rounded-full object-cover object-center w-80 h-auto"
                 height="400"
-                src="/dan-headshot-uksa-accel.png"
+                src="/dan-headshot.jpg"
                 width="400"
               />
             </div>

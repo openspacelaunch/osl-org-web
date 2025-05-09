@@ -192,9 +192,9 @@ export function AboutPage() {
             <Image
               alt="Founder of Open Space Launch"
               className="mx-auto aspect-video overflow-hidden rounded-xl object-contain sm:w-full lg:order-last h-auto"
-              height="310"
-              src="/oslf-look-at-stars.png?height=310&width=550"
-              width="550"
+              height={310}
+              src="/oslf-look-at-stars.png"
+              width={550}
             />
             <div className="flex flex-col justify-center space-y-4">
               <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">
@@ -272,9 +272,9 @@ export function AboutPage() {
             <Image
               alt="Open Space Launch Structure"
               className="w-full max-w-3xl h-auto rounded-xl shadow-lg"
-              height="600"
+              height={600}
               src="/oslf-structure-simple.png"
-              width="800"
+              width={800}
             />
             <p className="text-center text-gray-500 mt-4">
               Open Space Launch is structured to maximize collaboration,
