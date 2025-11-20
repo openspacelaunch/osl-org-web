@@ -8,7 +8,7 @@ export function TrusteesSectionComponent() {
   const trustees = [
     {
       name: "Daniel Sim",
-      image: "/daniel-sim-profile-pic.jpg",
+      image: "/dan-headshot.jpg",
       intro:
         "Visionary behind the Open Space Launch Foundation, with a background in Engineering Leadership, Simulation, AI, and Data Science. Creator of Meco Rocket Simulator, a popular rocket simulation software. Daniel is passionate about democratizing access to space and has a strong track record of leading complex, multi-disciplinary projects. His commitment to open-source principles and his dedication to fostering a collaborative community are at the core of the Foundation’s mission.",
       webpage: "https://www.linkedin.com/in/danniesim/",
